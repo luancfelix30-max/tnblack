@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TN Black</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+
+    <!-- TOPO -->
+    <header>
+        <div class="logo">TN Black</div>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME / CARROSSEL -->
+    <main class="container" id="home">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <!-- ITEM 1 -->
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/MCKP SORRISO.png" alt="Apple Watch Series 10">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <h3 class="product-name">Camisa Oversized</h3>
+                    <p class="description">Tecido de alta qualidade em camisas feitas para você.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/MCKP LUD.png" alt="Air Pods Max">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <h3 class="product-name">Camisa Premium</h3>
+                    <p class="description">Camisas premium com estilo moderno e conforto único</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/MCKP FUNDO.png" alt="Apple Vision Pro">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Alto Padrão</p>
+                    <h3 class="product-name">Tecido Pro</h3>
+                    <p class="description">Novo lançamento: camisas exclusivas para todas as ocasiões</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Setas -->
+        <div class="arrows">
+            <button class="arrow-btn" id="prev" aria-label="Anterior">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next" aria-label="Próximo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Indicadores -->
+        <div class="indicators">
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+
+    </main>
+
+    <!-- GRID DE PRODUTOS -->
+    <!-- ====== PRODUTOS ====== -->
+    <!-- ====== PRODUTOS ====== -->
+<section id="produtos" class="page-section">
+  <div class="produtos-header">
+  <h2>Todos Produtos</h2>
+  <input type="text" id="search-input" placeholder="Buscar produtos..." />
+</div>
+  <div class="products-grid">
+    
+    <!-- Produto 1 -->
+    <div class="product-card">
+      <img src="./img/MCKP SORRISO.png" alt="Produto 1">
+      <h3>Produto 1</h3>
+      <p class="price">R$ 49,90</p>
+
+      <!-- seletor de tamanho -->
+      <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+      <button class="btn">Comprar</button>
+    </div>
+
+    <!-- Produto 2 -->
+    <div class="product-card">
+      <img src="./img/MCKP SORRISO.png" alt="Produto 2">
+      <h3>Produto 2</h3>
+      <p class="price">R$ 59,90</p>
+
+      <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+      <button class="btn">Comprar</button>
+    </div>
+
+    <!-- Produto 3 -->
+    <div class="product-card">
+      <img src="./img/MCKP ARLINDO.png" alt="Produto 3">
+      <h3>Produto 3</h3>
+      <p class="price">R$ 69,90</p>
+
+      <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+      <button class="btn">Comprar</button>
+    </div>
+
+        <!-- Produto 4 -->
+        <div class="product-card">
+          <img src="/img/MCKP BELO.png" alt="Produto 4">
+          <h3>Produto 4</h3>
+          <p class="price">R$ 79,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="product-card">
+          <img src="/img/MCKP FUNDO.png" alt="Produto 5">
+          <h3>Produto 5</h3>
+          <p class="price">R$ 89,90</p>
+           <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 6 -->
+        <div class="product-card">
+          <img src="./img/MCKP LUD.png" alt="Produto 6">
+          <h3>Produto 6</h3>
+          <p class="price">R$ 99,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 7 -->
+        <div class="product-card">
+          <img src="/img/MCKP SORRISO.png" alt="Produto 7">
+          <h3>Produto 7</h3>
+          <p class="price">R$ 109,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 8 -->
+        <div class="product-card">
+          <img src="./img/MCKP ARLINDO.png" alt="Produto 8">
+          <h3>Produto 8</h3>
+          <p class="price">R$ 119,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 9 -->
+        <div class="product-card">
+          <img src="./img/MCKP BELO.png" alt="Produto 9">
+          <h3>Produto 9</h3>
+          <p class="price">R$ 129,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 10 -->
+        <div class="product-card">
+          <img src="./img/MCKP FUNDO.png" alt="Produto 10">
+          <h3>Produto 10</h3>
+          <p class="price">R$ 139,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 11 -->
+        <div class="product-card">
+          <img src="./img/MCKP LUD.png" alt="Produto 11">
+          <h3>Produto 11</h3>
+          <p class="price">R$ 149,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+        <!-- Produto 12 -->
+        <div class="product-card">
+          <img src="./img/MCKP SORRISO.png" alt="Produto 12">
+          <h3>Produto 12</h3>
+          <p class="price">R$ 159,90</p>
+          <label for="size">Tamanho:</label>
+      <select class="product-size">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+      </select>
+
+          <button class="btn">Comprar</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO CONTATOS -->
+    <section id="contatos" class="section">
+  <div class="contatos-center">
+    <h2></h2>
+    <p>Acompanhe nós no instagram:</p>
+    <a href="https://instagram.com/seuusuario" target="_blank" class="social-btn instagram">
+      <img src="./img/instagram.svg" alt="Instagram">
+      <span class="social-text">Instagram</span>
+    </a>
+  </div>
+</section>
+
+
+  </div>
+</section>
+  </div>
+</section>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Botão WhatsApp -->
+<a href="https://wa.me/5588981591229" target="_blank" class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       alt="WhatsApp" width="50" />
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 35px;
+  height: 35px;
+}
+</style>
+
+
+    <!-- Scripts -->
+    <script src="./scripts.js"></script>
+</body>
+</html>
+
+<footer class="site-footer">
+  <p>© 2025 - Criado por <strong>Luan Carlos</strong></p>
+</footer>
